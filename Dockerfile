@@ -2,7 +2,7 @@
 FROM openjdk:21-jdk-slim
 
 # Jar faylini konteynerga nusxalash
-COPY ./your-bot.jar /usr/app/librarybot.jar
+COPY ./librarybot.jar/usr/app/librarybot.jar
 
 # Kerakli portni ochish (agar kerak bo'lsa)
 EXPOSE 8080
